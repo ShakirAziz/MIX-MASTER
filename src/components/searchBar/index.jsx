@@ -1,12 +1,15 @@
 import "./styles.css";
-const SearchBar = () => {
+import Button from "../button";
+const SearchBar = (props) => {
   return (
     <div className="searchBar">
       <form className="search-form">
-        <input type="search" name="search" id="" className="form-input" />
-        <button type="submit" className="btn">
-          search
-        </button>
+        <input
+          type={props.type}
+          placeholder={props.placeholder}
+          className="form-input"
+        />
+        <Button btnType="submit" btnText="Search" />
       </form>
     </div>
   );

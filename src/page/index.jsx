@@ -3,11 +3,12 @@ import NavBar from "../components/header";
 import SearchBar from "../components/searchBar";
 import Card from "../components/card";
 import Data from "../data";
+import React, { useState } from "react";
 const Home = () => {
   return (
     <div className="root">
       <NavBar />
-      <SearchBar />
+      <SearchBar type="search" placeholder="search" />
       <div className="card-outerContainer">
         <div className="card-container">
           {Data.map((item, index) => {

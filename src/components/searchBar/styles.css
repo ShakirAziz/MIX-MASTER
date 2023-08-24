@@ -26,16 +26,3 @@
   border-radius: 5px 0px 0px 5px;
   border: 1px solid lightgray;
 }
-.btn {
-  padding: 5px 20px;
-  background-color: #10b981;
-  color: #fff;
-  border: none;
-  border-radius: 0px 5px 5px 0px;
-  text-transform: capitalize;
-}
-
-.btn:hover {
-  background-color: #047857;
-  cursor: pointer;
-}

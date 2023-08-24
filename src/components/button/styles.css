@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 8px 20px;
+  background-color: #10b981;
+  color: #fff;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: #047857;
+  cursor: pointer;
+}
