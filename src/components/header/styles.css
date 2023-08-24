@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.NavBar {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fff;
+  justify-items: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.Navlogo {
+  font-size: 3.2rem;
+  color: #10b981;
+  font-weight: 700;
+}
+
+.NavLinks {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  text-transform: capitalize;
+}
+
+.NavLink:hover {
+  color: #10b981;
+  font-size: 1.01rem;
+}
