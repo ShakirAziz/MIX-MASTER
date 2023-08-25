@@ -1,14 +1,13 @@
-import image1 from "../src/assets/images/1.jpg";
-import image2 from "../src/assets/images/2.jpg";
-import image3 from "../src/assets/images/3.jpg";
-import image4 from "../src/assets/images/4.jpg";
-import image5 from "../src/assets/images/5.jpg";
-import image6 from "../src/assets/images/6.jpg";
-import image7 from "../src/assets/images/7.jpg";
-import image8 from "../src/assets/images/8.jpg";
-import image9 from "../src/assets/images/9.jpg";
-
-const Data = [
+import image1 from "../../assets/images/1.jpg";
+import image2 from "../../assets/images/2.jpg";
+import image3 from "../../assets/images/3.jpg";
+import image4 from "../../assets/images/4.jpg";
+import image5 from "../../assets/images/5.jpg";
+import image6 from "../../assets/images/6.jpg";
+import image7 from "../../assets/images/7.jpg";
+import image8 from "../../assets/images/8.jpg";
+import image9 from "../../assets/images/9.jpg";
+const CardData = [
   {
     image: image1,
     titleOne: "GG",
@@ -74,4 +73,4 @@ const Data = [
   },
 ];
 
-export default Data;
+export default CardData;

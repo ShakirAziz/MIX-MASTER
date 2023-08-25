@@ -1,10 +1,9 @@
 import "./styles.css";
-
-const Button = (props) => {
+const Button = () => {
   return (
     <div>
-      <button type={props.btnType} className="btn">
-        {props.btnText}
+      <button type="submit" className="btn">
+        search
       </button>
     </div>
   );
