@@ -6,31 +6,39 @@ import CardData from "../components/card/data";
 import React, { useState } from "react";
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
-
-  const filteredCard = CardData.filter((item) =>
-    item.titleOne.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const [filteredCards, setFilteredCards] = useState(CardData);
 
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
   };
-
+  console.log(searchTerm);
+  const handleSearchClick = () => {
+    const filtered = CardData.filter((title) =>
+      title.titleOne.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredCards(filtered);
+    console.log(filtered);
+  };
   return (
     <div className="root">
       <NavBar />
-      <SearchBar searchTerm={searchTerm} onSearchChange={handleSearchChange} />
+      <SearchBar
+        searchTerm={searchTerm}
+        onSearchChange={handleSearchChange}
+        handleClick={handleSearchClick}
+      />
       <div className="card-outerContainer">
         <div className="card-container">
-          {filteredCard.map((item, index) => {
+          {filteredCards.map((card) => {
             return (
               <Card
-                key={item.titleOne}
-                image={item.image}
-                titleOne={item.titleOne}
-                titleTwo={item.titleTwo}
-                titleThree={item.titleThree}
-                type={item.type}
-                disc={item.disc}
+                key={card.titleOne}
+                image={card.image}
+                titleOne={card.titleOne}
+                titleTwo={card.titleTwo}
+                titleThree={card.titleThree}
+                type={card.type}
+                disc={card.disc}
               />
             );
           })}

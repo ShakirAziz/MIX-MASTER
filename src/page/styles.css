@@ -10,9 +10,9 @@
 }
 
 .card-container {
-  width: 82%;
-  display: grid;
+  display: inline-grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  align-items: center;
+  place-content: center;
+  gap: 1.8rem;
+  margin-bottom: 1.8rem;
 }

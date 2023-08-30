@@ -1,11 +1,12 @@
 import "./styles.css";
-import Button from "../button";
+import Button from "../button/index";
 import React from "react";
+// import React, { useState } from "react";
 
-const SearchBar = ({ searchTerm, onSearchChange }) => {
+const SearchBar = ({ searchTerm, onSearchChange, handleClick }) => {
   return (
     <div className="searchBar">
-      <form className="search-form">
+      <div className="search-form">
         <input
           type="search"
           placeholder="search"
@@ -14,8 +15,8 @@ const SearchBar = ({ searchTerm, onSearchChange }) => {
           onChange={onSearchChange}
         />
 
-        <Button />
-      </form>
+        <Button onClick={handleClick} />
+      </div>
     </div>
   );
 };
