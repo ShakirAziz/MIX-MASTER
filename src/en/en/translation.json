@@ -1,0 +1,361 @@
+{
+  "header": {
+    "headerLinkl": "Home",
+
+    "headerLink2": "desposite",
+    "despositelinks": {
+      "despositelink1": "option 1",
+      "despositelink2": "option 2"
+    },
+    "headerLink3": "Trade",
+    "tradelinks": {
+      "tradelink1": " Second contract",
+      "leftsideTitles":{
+      "contractCurency":"Currency",
+      "contractTime":"24 hourse",
+      "contractInc":"increase"
+      },
+      
+      "midTitles":{
+        "scndContract":"Second contract",
+        "timeTable":"time",
+        "midLow":"lowest",
+        "midHigh":"Highest",
+        "midTime":"24hQuantity"
+      },
+
+      "rightsideTitles":{
+       "btcHeading":"Contract opening",
+       "btcsubTitle1":"select cycle",
+       "btcsubTitle2":"Buying volume",
+       "btcinput":"Please enter the amount",
+       "btcBalance":"Amount Balance",
+       "btclongbtn":"buy long",
+       "btcShortbtn":"buy short"
+      },
+      "currentCom":"current commission",
+
+      "historyCom":"historical commission",
+      "historyComData":{
+       "hcomtrade":"trading pair",
+       "hcomdic":"direction",
+       "directionSubdata":{
+        "long":"buy long",
+        "short":"buy short"
+       },
+       "hcomstate":"state",
+       "statesubData":{
+          "setelData":"Settled"
+       },
+      "hcomEntrust":"Entrusted amount",
+      "hcomTrade":"Trading Limit",
+      "hcomPrice":"transaction price",
+      "hcomOpentime":"Opening time",
+      "hcomClosetime":"Closing time",
+      "hcomProLose":"profit and loss amount"
+
+      },
+      "tradelink2": " Currency trading",
+      "UsdtDetails":{
+        "ctradingCurency":"Currency",
+        "ctradingTime":"24 hours",
+        "ctradingInc":"increase"
+      },
+
+      "currentTradingmiddleData":{
+        "curencyTrade":"Currency trading",
+        "midLowest":"lowest",
+        "midHigh":"Highest",
+        "midQuan":"24hQuantity"
+      },
+      "handiCapright":"Handicap",
+      "handicapData":{
+      "handicapPrice":"price",
+      "handicapQuan":"Quantity",
+      "handicapTime":"time"
+      },
+
+      "buyingPortion":{
+      "buyAvail":"Available",
+      "buyLimitbtn":"limit order",
+      "buyMarketbtn":"market order",
+      "buybestPriceinput1":"buying price",
+      "buybestPriceinput2":"buying price",
+      "buyinputPlaceholder":"Enter the quantity",
+      "buyTransinput":"Transaction",
+      "buyVol":"volume",
+      "buyBtn":"buy"
+      },
+     "sellPortion":{
+      "sellAvail":"Available",
+      "sellLimitbtn":"limit order",
+      "sellMarketbtn":"market order",
+      "sellbestPriceinput1":"Selling price",
+      "sellbestPriceinput2":"Selling price",
+      "sellinputPlaceholder":"Enter the quantity",
+      "sellTransinput":"Transaction",
+      "sellVol":"volume",
+      "sellBtn":"sell"
+     },
+     "currentCommisionfooter":"current commission",
+     "currentCommissiondata":{
+      "comData1":"ID",
+      "comData2":"trading pair",
+      "comData3":"direction",
+      "comData4":"state",
+      "comData5":"Entrusted amount",
+      "comData6":"Trading Limit",
+      "comData7":"Trading Limit",
+      "comData8":"operate"
+     },
+     "currentTradinghistoricalcom":"historical commission",
+     "historicalcommissionallData":{
+     "hiscomTitle1":"type",
+     "hiscomTitle2":"trading pair",
+     "hiscomTitle3":"direction",
+     "hiscomTitle4":"state",
+     "hiscomTitle5":"Entrusted amount",
+     "hiscomTitle6":"Entrusted amount",
+     "hiscomTitle7":"commission time",
+     "hiscomTitle8":"statement time"
+     },
+     "noOrderyetball":"No orders yet"
+    },
+
+
+    "headerLink4": "IEO",
+    "ieoData":{
+      "ieoHead":"IEO Launchpad",
+      "ieoDesc":"Special SGD Early Purchase",
+      "ieoLaunchpad":"IEO Launchpad",
+      "ieoAbout":"Provide users with low-cost investment opportunities to grab the first project",
+      "ieoRush":"rush area",
+
+      "ieoHead1":"MORBION",
+      "morbianallData":{
+      "morbianTitle1":"Subscription Currency: MBN",
+      "morbianTitle2":"Starting time: 2022-10-31 11:02:32",
+      "morbianTitle3":"End Time: 2023-04-29 11:02:32",
+      "morbianTitle4":"Total issuance: 999999999.000000 MBN",
+      "morbianTitle5":"Issue unit price: 0.140000",
+      "morbianTitle6":"Number of participants: 15000000.000000 MBN"
+      },
+
+      "ieoHead2":"project instruction",
+      "projectinstructionallData":{
+      "pinstructionLimit":"subscription limit : 9999999.000000",
+      "pinstructionPrice":"Price : 983485.824720",
+      "pinstructionMinimum":"single minimum : 15000000.000000",
+      "pinstructionsubLimit":"subscription limit : 100.000000",
+      "pIndustry":"Industry background",
+      "pIndustrydesc":"MORBION coins are jointly launched by Mobie Exchange, with a limited issuance of 100 million. On October"
+      },
+      "joinNowbtn":"join now"
+    },
+
+    "headerLink5": "DeFi",
+    
+    "headerLink6": "Announcement Center",
+     "announcementCenterData":{
+      "announcementMainHead":"Please enter your question",
+      "announcementInput":"seach here",
+      "announcementHelpcenter":"help center",
+      "announcementSubHhgead":"Announcement Center"
+    }
+  },
+
+  "button": {
+    "homeInput-btn": "register"
+  },
+
+  "orderBtn": "order",
+  "orderDropdown": {
+    "currencyOrder": "Currency trading order",
+    "transOrder": "Contract transaction order",
+    "subOrder": "subscription order",
+    "miningOrder": "Mining machine order",
+    "currencyDetail": {
+      "entrust": "Entrust all coins",
+      "entrustHeding": {
+        "entrustHead": "entrust all",
+        "entrustId": "ID",
+        "entrustTd": "Trading pair",
+        "entrustDic": "Direction",
+        "entrustState": "State",
+        "entrustAmount": "Entrust amount",
+        "entrustTl": "trading limit",
+        "entrustCtime": "Commission time",
+        "entrustOpr": "Operate"
+      },
+
+      "currencyHis": "Currency History",
+      "currencyHisHeading": {
+        "CurrencyHead": "history record",
+        "chType": "type",
+        "chTpair": "Trading pair",
+        "chDic": "Direction",
+        "chState": "State",
+        "chEamount": "Entrust amount",
+        "chTlimit": "trading limit",
+        "chTime": "Commission time"
+      },
+
+      "ContractOrder": "Contract experience order",
+      "ContractHeading": {
+        "ContractHead": "Contract experience order",
+        "contractId": "ID",
+        "contractTd": "Trading pair",
+        "contractDic": "Direction",
+        "contractState": "State",
+        "contractAmount": "Entrust amount",
+        "contractUnit": "Opening unit price",
+        "contractTime": "Opening time",
+        "contractCount": "countdown"
+      },
+
+      "ContractOpenOrder": "Contract opening order",
+      "ContractOpenOrderHeading": {
+        "ContractOpenHead": "open interest",
+        "contractOpenId": "ID",
+        "contractOpenTd": "Trading pair",
+        "contractOpenDic": "Direction",
+        "contractOpenState": "State",
+        "contractOpenAmount": "Entrust amount",
+        "contractOpenUnit": "Opening unit price",
+        "contractOpenTime": "Opening time",
+        "contractOpenCount": "countdown"
+      },
+
+      "ContractCloseOrder": "Contract closing order",
+      "ContractCloseOrderHeading": {
+        "ContractCloseHead": "Closed contracts",
+        "contractCloseTD": "trading pair",
+        "contractCloseDic": "Direction",
+        "directionData": {
+          "directionR1": "buy long",
+          "directionR2": "buy short"
+        },
+        "contractCloseState": "State",
+        "stateData": {
+          "stateR1": "Settled"
+        },
+        "contractCloseAmount": "Entrust amount",
+        "contractCloseLimit": "Trading limit",
+        "contractClosePrice": "transation price",
+        "contract1OpenTime": "Opening time",
+        "contractCloseTime": "closing time",
+        "contractCloseProfit": "profit and loss amount"
+      },
+
+      "miningMachine": "Normal mining machine order",
+      "miningMachineData": {
+        "miningMachineHead": "my miner",
+        "minerName": "Miner name: ETH mining machine 1st",
+        "minerType": "Miner type: exclusive, ownership: 100%",
+        "purchaseTime": "purchase time: 2023-08-15 13:57:57",
+        "ExpireDate": "Expire date: 2024-02-11 13:57:57",
+        "outCurrency": "output currency: ETH",
+        "outPutType": "output type: daily outputdaily equivalent: 6.100000 USDT",
+        "proRights": "Property rights: 180 day",
+        "normal": "normal"
+      },
+
+      "miningMachineExpr": "Expired mining machine order",
+      "miningMachineExprData": {
+        "miningMachineExprHead": "expired miner",
+        "minerExprName": "Miner name: Free mining machine",
+        "minerExprType": "Miner type: exclusive, ownership: 100%",
+        "purchaseExprTime": "purchase time: 2023-07-27 11:39:59",
+        "ExpireExprDate": "Expire date: 2023-08-10 11:39:59",
+        "outExprCurrency": "output currency: USDT",
+        "outPutExprType": "output type: daily output: 2.000000 USDT",
+        "proExprRights": "Property rights: 14 day"
+      },
+
+      "subscriptionFrozen": "Subscription frozen order",
+      "subscriptionFrozenData": {
+        "subscriptionFrozenHead": "Subscription record",
+        "subscriptionFrozenHeadSub": "freezing",
+        "subscriptionFrozenProName": "project name",
+        "subscriptionFrozenCur": "Currency",
+        "subscriptionFrozenUnit": "unit price",
+        "subscriptionFrozenQua": "Subscription quantity",
+        "subscriptionFrozenPay": "payment amount",
+        "subscriptionFrozenCyc": "freeze cycle",
+        "subscriptionFrozenprofit": "Profit ratio",
+        "subscriptionFrozenEarn": "current earnings",
+        "subscriptionFrozenEsti": "Estimated total revenue",
+        "subscriptionFrozenTime": "Subscription time"
+      },
+
+      "subscribeUnfrozen": "Subscribe Unfrozen Order",
+      "subscribeUnfrozenData": {
+        "subscribeUnfrozenHead": "Subscription record",
+        "subscribeUnfrozenHeadSup": "released",
+        "subscribeUnfrozenName": "project name",
+        "subscribeUnfrozenCur": "Currency",
+        "subscribeUnfrozenUnit": "unit price",
+        "subscribeUnfrozenQua": "Subscription quantity",
+        "subscribeUnfrozenPay": "payment amount",
+        "subscribeUnfrozenCyc": "freeze cycle",
+        "subscribeUnfrozenTime": "Subscription time",
+        "subscribeUnfrozenRelTime": "release time"
+      }
+    }
+  },
+
+  "homePage": {
+    "homeMainHeading": "Find Your Next Moonshot  ",
+    "homePara1": " 24 hours trading volume $289,789,518.011",
+    "homePara2": " Start Your Cryptocurrency Journey Now",
+    "homePara3": " JPMcoin The global company has a variety of features that make it an ideal place to buy and sell digital assets",
+    "css-dlistbox-l-content": {
+      "data-p-title1": "Manage your assets",
+      "data-p-title2": "Spot trading with up to 5x leverage"
+    },
+    "css-dlistbox-2-content": {
+      "data-p-title3": "credit card payment",
+      "data-p-title2": "Buy cryptocurrencies with your credit card through our partners"
+    },
+    "css-dlistbox-3-content": {
+      "data-p-title4": "safe storage",
+      "data-p-title5": "Client funds are held in a dedicated multi-signature",
+      "data-p-title6": "24/7 security monitoring in the cold wallet",
+      "data-p-title7": "Dedicated 20,000 BTC security reserve"
+    },
+    "css-dlistbox-4-content": {
+      "data-p-title8": "access anywhere",
+      "data-p-title9": "Live 24/7 on our mobile apps for Android and iOS",
+      "data-p-title10": "Deposit, Withdraw and Trade 24/7"
+    },
+
+    "bodyHeading": "The most complete trading cryptocurrency platform",
+    "bodyPara": "Here are a few reasons why you should choose JPMcoin"
+  },
+
+  "imageDesc": {
+    "imageDescpara1": "Maximize profit with leverage",
+    "imageDescpara2": "Up to 125x leverage with superior spreads",
+    "imageDescpara3": "Increased leverage, no liquidation risk"
+  },
+
+  "dlistboxToPara1": "Join the JPMcoin Community Today",
+  "dlistboxToPara2": "Always there for you",
+  "muiTable": {
+    "tableHeading1": "Name",
+    "tableHeading2": "Price",
+    "tableHeading3": "Quote Change",
+    "tableHeading4": "Highest/Lowest",
+    "tableHeading5": "24H Quantity",
+    "tableHeading6": "Operate",
+    "OperatesData": {}
+  },
+  "footer": {
+    "footerLogo": "JPMcoin",
+    "footerLink1": "about Us",
+    "footerLink2": "MSB certificate",
+    "footerLink3": "Terms of Service",
+    "footerLink4": "Privacy Policy Statement",
+    "copyright": "CopyRight © 2017 - 2022 JPMcoin. All Rights Reserved."
+  }
+}

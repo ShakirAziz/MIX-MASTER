@@ -6,7 +6,7 @@
 .card-outerContainer {
   width: 100%;
   display: grid;
-  justify-items: center;
+  place-content: center;
 }
 
 .card-container {

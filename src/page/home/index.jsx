@@ -1,9 +1,8 @@
 import "./styles.css";
-import NavBar from "../components/header";
-import SearchBar from "../components/searchBar";
-import Card from "../components/card";
-import CardData from "../components/card/data";
-import React, { useState } from "react";
+import SearchBar from "../../components/searchBar";
+import Card from "../../components/card";
+import CardData from "../../components/card/data";
+import React, { useEffect, useState } from "react";
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredCards, setFilteredCards] = useState(CardData);
@@ -11,17 +10,20 @@ const Home = () => {
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
   };
-  console.log(searchTerm);
   const handleSearchClick = () => {
     const filtered = CardData.filter((title) =>
       title.titleOne.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setFilteredCards(filtered);
-    console.log(filtered);
   };
+
+  useEffect(() => {
+    if (searchTerm === "") {
+      setFilteredCards(CardData);
+    }
+  }, [searchTerm]);
   return (
     <div className="root">
-      <NavBar />
       <SearchBar
         searchTerm={searchTerm}
         onSearchChange={handleSearchChange}
