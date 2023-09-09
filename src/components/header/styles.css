@@ -28,7 +28,12 @@
   text-transform: capitalize;
 }
 
-.NavLink:hover {
+.NavLink a:hover {
   color: #10b981;
   font-size: 1.01rem;
+}
+
+.NavLink a {
+  text-decoration: none;
+  color: black;
 }

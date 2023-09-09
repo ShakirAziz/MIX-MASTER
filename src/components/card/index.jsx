@@ -1,4 +1,5 @@
 import "./styles.css";
+import { Link } from "react-router-dom";
 const Card = (props) => {
   return (
     <div className="card">
@@ -9,9 +10,9 @@ const Card = (props) => {
         <h4 className="titleOne">{props.titleOne}</h4>
         <h5 className="titleTwo">{props.titleTwo}</h5>
         <p className="titleThree">{props.titleThree}</p>
-        <button type={props.submit} className="btn btn1 ">
+        <Link to="/detail" className="btn btn1 ">
           {props.disc}
-        </button>
+        </Link>
       </div>
     </div>
   );

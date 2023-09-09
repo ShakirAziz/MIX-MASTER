@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about {
+  margin: 0 226px;
+  padding: 80px 35px;
+  display: grid;
+  gap: 20px;
+}
+.about p {
+  color: gray;
+}
